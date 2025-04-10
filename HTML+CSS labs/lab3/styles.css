@@ -10,19 +10,19 @@ background-color: rgb(65,223,207);
 }
 
 /*------------- TASK 2 -------------*/
-.section-task2 {
+.task2 {
 margin: 100px auto;
 width: 250px;
 height: 250px;
 border: dotted 5px rgb(35,202,133);  /* точно dotted? */
 text-align: center;
-}
 
-.p-task2 {
+p {
 width: 100%;
 padding: 20px;
 border: solid 5px blue;
 box-sizing: border-box;
+}
 }
 
 /*------------- TASK 3 -------------*/
@@ -30,15 +30,15 @@ box-sizing: border-box;
 font-family: Helvetica, serif;
 background-color: rgb(237, 237, 237);
 color: rgb(50, 50, 50);
-}
 
-.article-task3 {
+article {
 margin: 0px auto;
 width: 70%;
 }
 
-.img-task3 {
+img {
 width: 70%;
+}
 }
 
 /*------------- TASK 4 -------------*/
@@ -48,22 +48,22 @@ font-family: Helvetica, serif;
 width: 90%;
 margin: auto;
 margin-top: 3.5em;
-}
 
-.header-h1-task4 {
+h1 {
 display: inline-block;
 margin-right: 3em;
 font-size: 2.5em;
 }
 
-.nav-task4 {
+nav {
 display: inline-block;
 }
 
-.nav-task4 a {
+nav a {
 margin-right: 1.5em;
 text-decoration: none;
 color: green;
+}
 }
 
 .task4-body {
