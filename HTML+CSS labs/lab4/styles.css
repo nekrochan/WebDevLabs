@@ -11,7 +11,10 @@
     font-weight: lighter;
   }
 
-  header, main, aside, footer {
+  header,
+  main,
+  aside,
+  footer {
     padding: 20px;
     margin: 0.7rem;
     background-color: white;
@@ -19,7 +22,7 @@
     box-shadow: 0px 1px 5px 4px rgba(45, 48, 71, 0.171);
   }
 
-/* grow, shrink, basis */
+  /* grow, shrink, basis */
   header {
     flex: 0 1 100%;
     clear: both;
@@ -46,23 +49,145 @@
 }
 
 .task2 {
-    p {
-        font-family: Helvetica, sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-    }
+  p {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 3rem auto;
+    gap: 2rem;
+  }
+}
+
+.task3 {
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: center;
+
+  h1,
+  h2,
+  h3 {
+    font: 1em/1.2, Georgia, serif;
+  }
+
+  section,
+  .gallery,
+  li {
+    display: flex;
+  }
+
+  section {
+    width: 40%;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  li {
+    border: 0.3rem solid black;
+    padding: 0.5rem;
+    background-color: white;
+    max-width: 7rem;
+    box-shadow: 0px 1px 5px 4px rgba(45, 48, 71, 0.171);
+  }
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.task4 {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  margin: auto;
+  justify-content: center;
+
+  p {
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1.3em;
+    line-height: 1.5;
+    margin-bottom: -0.7rem;
+    margin-top: 0.1rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 4px rgba(45, 48, 71, 0.171);
+    margin: 10rem auto;
+    padding: 1rem;
+  }
+}
+
+.task5 {
+    background-color: rgb(238, 238, 238);
+}
+
+.workspace {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 
     h2 {
-        font-family: Georgia, serif;
-        font-size: 1em;
-        line-height: 1.2;
+        margin: 0 ;
     }
+}
 
-    section {
-        display: flex;
-        justify-content: space-between;
-        max-width: 70vw;
-        margin: 3rem auto;
-        gap: 2rem;
-    }
+.masonry {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 4px rgba(45, 48, 71, 0.171);
+    width: 13rem;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: contain;
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    justify-content: center;
 }
