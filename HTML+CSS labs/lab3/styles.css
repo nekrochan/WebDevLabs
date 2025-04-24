@@ -1,10 +1,9 @@
 /*------------- TASK 1 -------------*/
 .task1 {
-padding: 20px;
+padding: 10px 20px;
 margin: 100px auto;
 width: 200px;
-border: solid 5px;
-border-color: black;
+border: solid 5px black;
 border-radius: 10px;
 background-color: rgb(65,223,207);
 }
@@ -102,4 +101,3 @@ border: 0.4rem black solid;
 background-color: white;
 }
 }
-
