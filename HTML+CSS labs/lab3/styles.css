@@ -1,11 +1,14 @@
 /*------------- TASK 1 -------------*/
 .task1 {
+
+p {
 padding: 10px 20px;
 margin: 100px auto;
-width: 200px;
+    width: 200px;
 border: solid 5px black;
 border-radius: 10px;
 background-color: rgb(65,223,207);
+}
 }
 
 /*------------- TASK 2 -------------*/
