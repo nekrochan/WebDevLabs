@@ -1,107 +1,107 @@
 /*------------- TASK 1 -------------*/
 .task1 {
+  margin: auto;
 
-p {
-padding: 10px 20px;
-margin: 100px auto;
+  p {
+    padding: 10px 20px;
+    margin: 100px auto;
     width: 200px;
-border: solid 5px black;
-border-radius: 10px;
-background-color: rgb(65,223,207);
-}
+    border: solid 5px black;
+    border-radius: 10px;
+    background-color: rgb(65, 223, 207);
+  }
 }
 
 /*------------- TASK 2 -------------*/
 .task2 {
-margin: 100px auto;
-width: 250px;
-height: 250px;
-border: dotted 5px rgb(35,202,133);
-text-align: center;
+  margin: 100px auto;
+  width: 250px;
+  height: 250px;
+  border: dotted 5px rgb(35, 202, 133);
+  text-align: center;
 
-p {
-width: 100%;
-padding: 20px;
-border: solid 5px blue;
-box-sizing: border-box;
-}
+  p {
+    width: 100%;
+    padding: 20px;
+    border: solid 5px blue;
+    box-sizing: border-box;
+  }
 }
 
 /*------------- TASK 3 -------------*/
 .body-task3 {
-font-family: Helvetica, serif;
-background-color: rgb(237, 237, 237);
-color: rgb(50, 50, 50);
+  font-family: Helvetica, serif;
+  background-color: rgb(237, 237, 237);
+  color: rgb(50, 50, 50);
 
-article {
-margin: 0px auto;
-width: 70%;
-}
+  article {
+    margin: 0px auto;
+    width: 70%;
+  }
 
-img {
-width: 70%;
-}
+  img {
+    width: 70%;
+  }
 }
 
 /*------------- TASK 4 -------------*/
 .task4-header {
-border-bottom: 2px solid black;
-font-family: Helvetica, serif;
-width: 90%;
-margin: auto;
-margin-top: 3.5em;
+  border-bottom: 2px solid black;
+  font-family: Helvetica, serif;
+  width: 90%;
+  margin: auto;
+  margin-top: 3.5em;
 
-h1 {
-display: inline-block;
-margin-right: 3em;
-font-size: 2.5em;
-}
+  h1 {
+    display: inline-block;
+    margin-right: 3em;
+    font-size: 2.5em;
+  }
 
-nav {
-display: inline-block;
-}
+  nav {
+    display: inline-block;
+  }
 
-nav a {
-margin-right: 1.5em;
-text-decoration: none;
-color: green;
-}
+  nav a {
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: green;
+  }
 }
 
 .task4-body {
-width: 90%;
-margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 
-p {
-font-family: Helvetica, serif;
-margin-bottom: 1.5em;
-line-height: 1.5em;
-}
+  p {
+    font-family: Helvetica, serif;
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+  }
 
-h1 {
-font-family: Garamond, serif;
-margin-bottom: 0;
-}
+  h1 {
+    font-family: Garamond, serif;
+    margin-bottom: 0;
+  }
 }
 
 /*------------- TASK 5 -------------*/
 .gallery {
-width: 70%;
-margin: 3em auto;
-list-style-type: none;
-text-align: center;
+  width: 70%;
+  margin: 3em auto;
+  list-style-type: none;
 
-li {
+  li {
     display: inline-block;
     vertical-align: middle;
     margin: 0.5em;
-}
+  }
 
-img {
-width: 15em;
-height: auto;
-padding: 1em;
-border: 0.4rem black solid;
-background-color: white;
-}
+  img {
+    width: 15em;
+    height: auto;
+    padding: 1em;
+    border: 0.4rem black solid;
+    background-color: white;
+  }
 }
