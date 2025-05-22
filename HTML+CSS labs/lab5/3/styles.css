@@ -47,7 +47,7 @@ button {
     margin-bottom: 5vh;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .card {
         min-width: 200px;
         max-width: 90%;

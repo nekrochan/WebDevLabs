@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+table {
+    font-family: Helvetica, sans-serif;
+    width: calc(100% - 100px);
+    margin: 50px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    width: 33.33%;
+        border: 1px solid rgb(222, 222, 222);
+        text-align: left;
+        padding: 5px;
+        padding-left: 8px;
+}
+
+thead {
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+tbody {
+
+    tr:nth-child(odd) {
+        background-color: rgb(240,240,240);
+    }
+
+    tr:nth-child(even) {
+        background-color: white;
+    }
+}
+
+@media (max-width: 575px) {
+    table {
+      width: 90%;
+      min-width: 200px;
+      margin: 2em auto;
+    }
+  
+    thead {
+      display: none; /* спрятать заголовок */
+    }
+  
+    td {
+      display: flex; /* разместить заголовок и данные в строку */
+      align-items: center;
+      width: 100%;
+      border: 1px solid rgb(222, 222, 222);
+    }
+  
+    /* добавить псевдо-заголовок перед элементом */
+    td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      color: black;
+      min-width: fit-content;
+      padding-right: 10px;
+    }
+  
+    /* добавить текст для псевдо-заголовка */
+    td:nth-child(1)::before { content: "First Name "; }
+    td:nth-child(2)::before { content: "Last Name "; }
+    td:nth-child(3)::before { content: "Job Title "; }
+  }
