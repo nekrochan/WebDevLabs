@@ -24,7 +24,7 @@ function operateFilms(commandSequence) {
                 movies[movieIndex].date = tmp[1]
             }
         }
-    });
+    })
 
     movies.forEach(movie => {
         if (movie.name && movie.director && movie.date) {
@@ -50,4 +50,4 @@ operateFilms([
     'Fast and Furious onDate 30.07.2018',
     'Batman onDate 01.08.2018',
     'Fast and Furious directedBy Rob Cohen'
-]);
+])
