@@ -1,7 +1,5 @@
 function subtract() {
 
-    // console.log('TODO:...');
-
     let firstNumber = parseFloat(
         // document - «входная точка» в DOM
         document.getElementById('firstNumber')  // .querySelector для любых селекторов

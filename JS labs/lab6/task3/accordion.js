@@ -1,5 +1,5 @@
 function toggle() {
-    //console.log('TODO:...');
+    
     let extra = document.getElementById('extra')
     let button = document.getElementsByClassName('button')
 

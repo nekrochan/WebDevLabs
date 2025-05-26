@@ -1,4 +1,5 @@
 function solve() {
+  
   let inputText = document.getElementById('text').value
   let style = document.getElementById('naming-convention').value.toLowerCase()
 
