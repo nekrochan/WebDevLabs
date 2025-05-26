@@ -1,5 +1,5 @@
 function toggle() {
-    
+
     let extra = document.getElementById('extra')
     let button = document.getElementsByClassName('button')
 
@@ -7,7 +7,7 @@ function toggle() {
         // изначально содержимое скрыто
         extra.style.display = 'block'
         button.textContent = 'Less'
-        
+
     } else {
         // содержимое открыто -> скрыть
         extra.style.display = 'none'

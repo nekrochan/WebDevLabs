@@ -1,5 +1,5 @@
 function solve() {
-  
+
   let inputText = document.getElementById('text').value
   let style = document.getElementById('naming-convention').value.toLowerCase()
 
@@ -15,7 +15,7 @@ function solve() {
 
   // для camel case нужно изменить только первую букву
   if (style === 'camel case') newText = newText[0].toLowerCase() + newText.slice(1)
-  else if (style!='pascal case') newText = 'Error!'
+  else if (style != 'pascal case') newText = 'Error!'
 
   document.getElementById('result').textContent = newText
 }
