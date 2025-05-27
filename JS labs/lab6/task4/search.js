@@ -10,8 +10,8 @@ function search() {
       let townLowerCase = town.textContent.toLowerCase()
       if (townLowerCase.includes(searchText) && searchText != '') {
          matches++
-         town.style.fontWeight = 'bolder'
-         town.style.textDecoration = 'underline'
+         town.style.fontWeight = 'bolder'  // жирным
+         town.style.textDecoration = 'underline'  // подчеркнуто
 
       } else {
          town.style.textDecoration = 'none'

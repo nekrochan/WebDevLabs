@@ -18,7 +18,7 @@ function solve() {
                 }
             }
 
-            // если строка содержит поисковый запрос, то + select
+            // если строка содержит поисковый запрос, то + select (для выделения желтым)
             if (searchText && match) line.classList.add('select')
             // если не содержит, то селект снимается 
             else line.classList.remove('select')

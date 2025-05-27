@@ -2,7 +2,7 @@ function subtract() {
 
     let firstNumber = parseFloat(
         // document - «входная точка» в DOM
-        document.getElementById('firstNumber')  // .querySelector для любых селекторов
+        document.getElementById('firstNumber')  // .querySelector - для любых селекторов
             .value  // извлечь значение
     )
 
