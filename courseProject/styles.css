@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font: 1rem sans-serif;
+  font: 1rem Verdana, sans-serif;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -9,11 +9,11 @@ body {
 .page-header {
   display: flex;
   width: 100%;
-  background-color: #006b09;
-  border-bottom: 5px solid #07b148;
-  color: white;
-  padding: 1px 5px;
-  line-height: 1rem;
+  background-color: #FFCDD2;
+  border-bottom: 5px solid #E57373;
+  color: #E57373;
+  padding: 1px 25px;
+  line-height: 1em;
 }
 
 .page-content {
@@ -24,16 +24,16 @@ body {
 }
 
 main {
-  flex: 3;
-  border: dashed 0.1rem #006b09;
+  flex: 0 1 75%; /*запрет на растягивание, разрешение на сужение, 3/4 экрана*/
+  border: dashed 0.1rem #FFCDD2;
   border-radius: 15px;
   box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
   padding: 10px;
 }
 
 aside {
-  flex: 1;
-  border: dashed 0.1rem #006b09;
+  flex: 0 1 25%; /*запрет на растягивание, разрешение на сужение, четверть экрана*/
+  border: dashed 0.1rem #FFCDD2;
   border-radius: 15px;
   box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
   padding: 10px;
@@ -41,12 +41,12 @@ aside {
 
 .section-header {
   color: black;
-  border-bottom: 5px solid #07b148;
+  border-bottom: 5px solid #E57373;
   font-size: 1rem;
-  line-height: 1.3rem;
+  line-height: 1em;
 }
 
-button-delete {
+.button-delete {
   background-color: #cf3a15;
   color: white;
   font-weight: bold;
@@ -57,8 +57,12 @@ button-delete {
   line-height: 1em;
 }
 
-button-archive {
-  background-color: #A3AE9E;
+.button-delete:focus {
+  background-color: #a82f11;
+}
+
+.button-archive {
+  background-color: #c0c0c0;
   color: white;
   font-weight: bold;
   border: none;
@@ -68,21 +72,33 @@ button-archive {
   line-height: 1em;
 }
 
+.button-archive:focus {
+  background-color: #919191;
+}
+
+label {
+  font-size: 0.8em;
+}
+
 input {
   border: none;
   border-bottom: 2px solid #40493B;
   width: 100%;
   box-sizing: border-box;
-  font: 0.7em sans-serif;
+  font: 0.8em sans-serif;
   line-height: 1.5em;
 }
 
 textarea {
   border: 2px solid #40493B;
   width: 100%;
+  border-radius: 5px;
   box-sizing: border-box;
-  font: 0.7em sans-serif;
+  font: 0.8em sans-serif;
   line-height: 1.5em;
+  margin-top: 6px;
+  resize: vertical;
+  min-height: 5em;
 }
 
 .form-element {
@@ -90,7 +106,7 @@ textarea {
 }
 
 .button-create {
-  background-color: #006b09;
+  background-color: #E57373;
   color: white;
   font-weight: bold;
   border: none;
@@ -101,5 +117,9 @@ textarea {
 }
 
 .button-create:focus {
-  background-color: #07b148;
+  background-color: #FFCDD2;
+}
+
+article {
+  font: 1em Verdana, sans-serif;
 }
